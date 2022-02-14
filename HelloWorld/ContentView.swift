@@ -8,20 +8,37 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var tapCount = 0
+    
     var body: some View {
-        HStack {
-            Image("swiftUILogo")
-            VStack(alignment: .leading) {
-                Text("Hello World!")
+        VStack{
+            SwiftLogo()
+                .padding(.bottom, -20)
+            HStack {
+                Image("swiftUILogo")
+                textInfo
+            }
+            .padding()
+            Spacer()
+            
+            Button(action: { tapCount += 1}) {
+                Text("Tap count: \(tapCount)")
                     .font(.title)
-                    .fontWeight(.bold)
-                    .foregroundColor(Color.blue)
-                HStack {
-                    Text("This is SwiftUI View!")
-                    Spacer()
-                    Text("First Lesson!")
-                        .font(.subheadline)
-                }
+            }
+        }
+    }
+    
+    private var textInfo: some View {
+        VStack(alignment: .leading) {
+            Text("Hello World!")
+                .font(.title)
+                .fontWeight(.bold)
+                .foregroundColor(Color.blue)
+            HStack {
+                Text("This is SwiftUI View!")
+                Spacer()
+                Text("First Lesson!")
+                    .font(.subheadline)
             }
         }
         .padding()
