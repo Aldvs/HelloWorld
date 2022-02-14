@@ -11,6 +11,9 @@
 		84AD1EC027BAC5F70023F994 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD1EBF27BAC5F70023F994 /* ContentView.swift */; };
 		84AD1EC227BAC5FB0023F994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AD1EC127BAC5FB0023F994 /* Assets.xcassets */; };
 		84AD1EC527BAC5FB0023F994 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AD1EC427BAC5FB0023F994 /* Preview Assets.xcassets */; };
+		84AD1ECC27BAD51D0023F994 /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD1ECB27BAD51D0023F994 /* ColorCircle.swift */; };
+		84AD1ECE27BAD88F0023F994 /* SwiftImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD1ECD27BAD88F0023F994 /* SwiftImage.swift */; };
+		84AD1ED027BADAD30023F994 /* SwiftLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD1ECF27BADAD30023F994 /* SwiftLogo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		84AD1EBF27BAC5F70023F994 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		84AD1EC127BAC5FB0023F994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84AD1EC427BAC5FB0023F994 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84AD1ECB27BAD51D0023F994 /* ColorCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircle.swift; sourceTree = "<group>"; };
+		84AD1ECD27BAD88F0023F994 /* SwiftImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftImage.swift; sourceTree = "<group>"; };
+		84AD1ECF27BADAD30023F994 /* SwiftLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLogo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				84AD1EBD27BAC5F70023F994 /* HelloWorldApp.swift */,
+				84AD1ECB27BAD51D0023F994 /* ColorCircle.swift */,
+				84AD1ECD27BAD88F0023F994 /* SwiftImage.swift */,
 				84AD1EBF27BAC5F70023F994 /* ContentView.swift */,
 				84AD1EC127BAC5FB0023F994 /* Assets.xcassets */,
 				84AD1EC327BAC5FB0023F994 /* Preview Content */,
+				84AD1ECF27BADAD30023F994 /* SwiftLogo.swift */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -139,6 +148,9 @@
 			files = (
 				84AD1EC027BAC5F70023F994 /* ContentView.swift in Sources */,
 				84AD1EBE27BAC5F70023F994 /* HelloWorldApp.swift in Sources */,
+				84AD1ECC27BAD51D0023F994 /* ColorCircle.swift in Sources */,
+				84AD1ED027BADAD30023F994 /* SwiftLogo.swift in Sources */,
+				84AD1ECE27BAD88F0023F994 /* SwiftImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
