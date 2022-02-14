@@ -13,7 +13,7 @@ struct SwiftImage: View {
             Color.white
             Image("swift")
                 .resizable()
-                .frame(width: 200, height: 200)
+                .frame(width: 150, height: 150)
         }
 
     }
